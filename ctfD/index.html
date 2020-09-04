@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CTFg Title</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+<!--header start-->
+<header class="header" id="myHeader">
+	<div class="container">
+		<nav class="navbar navbar-expand-lg">
+		  <a class="navbar-brand" href="#">
+		  	<img src="images/logo.png" class="main-logo" />
+		  </a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#">Wiki</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Guides</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Rules</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">FAQ</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Practise Arena</a>
+		      </li>	
+		    </ul>
+		    <ul class="navbar-nav p-2 login-btn">
+		    	<a class="nav-link btn btn-success" href="#">Login</a>
+		    </ul>
+		  </div>
+		</nav>
+	</div>
+</header>
+<!--header ends-->
+<div class="content" id="particles-js">
+    <div class="row">
+        <div class="col-12 p-0">
+            <div id="btext" class="jumbotron min-vh-100 text-center m-0 bg-transparent d-flex flex-column justify-content-center">
+                <h3>Learn | Hack | Win</h3>
+                <p class="lead">Cyber Security Platform</p>
+                <p class="lead">By team bi0s</p>
+                <p class="lead">
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Login</a>
+                    <a class="btn btn-success btn-lg" href="#" role="button">Register</a>
+                </p>
+			</div>
+		</div>
+    </div>
+</div>
+<!--footer start-->
+<footer>
+	<div class="container">
+		<nav class="navbar navbar-expand-lg">
+		  <a class="navbar-brand" href="#">
+		  	<img src="images/logo.png" class="main-logo" />
+		  </a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#">Wiki</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Guides</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Rules</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">FAQ</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Practise Arena</a>
+			  </li>
+			  <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </p>
+			  <li>
+				<br><br>
+				<h3 class="fab fa-instagram" onclick="document.location='#'">&nbsp;</h3>
+			  </li>
+			  &nbsp;
+			  <li>
+				<br><br>
+				<h3 class="fab fa-facebook" onclick="document.location='#'">&nbsp;</h3>
+			  </li>
+			  &nbsp;
+			  <li>
+				<br><br>
+				<h3 class="fab fa-github-square" onclick="document.location='#'">&nbsp;</h3>
+			  </li>
+			  &nbsp;
+			  <li>
+				<br><br>
+				<h3 class="fab fa-twitter" onclick="document.location='#'">&nbsp;</h3>
+			  </li>
+			</ul>		
+		  </div>
+		</nav>
+	</div>
+</footer>
+</body>
+<!--footer ends-->
+<!--javascript-->
+<script type="text/javascript" src="js/particles.min.js"></script>
+<script  type="text/javascript" src="js/app.js"></script>
+<script src="https://kit.fontawesome.com/3592d3141a.js" crossorigin="anonymous"></script>
+<!--javascript-->
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+</html>

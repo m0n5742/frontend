@@ -1,77 +1,86 @@
-
-@font-face{
-	font-family:Fira Code;
-	font-style:normal;
-	font-weight:400;
-	src:url('../fonts/62da0ac51db1e4a3a4d57b9154a344fc.woff') format("woff")
+@font-face {
+    font-family: Fira Code;
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/62da0ac51db1e4a3a4d57b9154a344fc.woff') format("woff")
 }
 
-@font-face{
-	font-family:Fira Code;
-	font-style:normal;
-	font-weight:800;
-	src:url('../fonts/2bf08001f42c34e30e1de9d2eb81aead.woff') format("woff")
+@font-face {
+    font-family: Fira Code;
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/2bf08001f42c34e30e1de9d2eb81aead.woff') format("woff")
 }
 
 body {
-	background: #151525;
-	font-family:Fira Code,Monaco,Consolas,Ubuntu Mono,monospace;
-	font-size:1rem;
-	color: #FFF;
+    background: #151525;
+    font-family: Fira Code, Monaco, Consolas, Ubuntu Mono, monospace;
+    font-size: 1rem;
+    color: #FFF;
 }
 
 .main-logo {
-	height: 30px;
-	margin-right: 30px;
+    height: 30px;
+    margin-right: 30px;
 }
 
 .header {
-	background: #29003b;
-	font-size: 1em;
-	padding: 10px 16px;
+    background: #29003b;
+    font-size: 1em;
+    padding: 10px 16px;
 }
 
 li.nav-item {
-	margin-right: 50px;
-}
-.nav-link {
-	color: #FFF;
+    margin-right: 50px;
 }
 
-header .login-btn{
-	color: blue;
+.nav-link {
+    color: #FFF;
+}
+
+header .login-btn {
+    color: blue;
 }
 
 .jumbotron {
-	height: 80vh;	
+    height: 80vh;
 }
 
 .btn {
-	border: none;
+    border: none;
 }
+
 .btn-primary {
-	background: #265664;
+    background: #265664;
 }
+
 .btn-success {
-	background:#4e6c4d;
+    background: #4e6c4d;
+    font-size: 23px;
 }
-#btext{
-	color: #f9f3f4;
-	position: fixed;
-	text-align: left;
-	top: 10%;
-	line-height: 0.4cm;
+
+#btext {
+    color: #f9f3f4;
+    position: fixed;
+    text-align: left;
+    top: 10%;
+    line-height: 0.4cm;
 }
 
 .sticky {
-	position: fixed;
-	top: 0;
-	width: 100%;
-  }
-  
-.sticky + .content {
-	padding-top: 102px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
+
+.sticky+.content {
+    padding-top: 102px;
+}
+
 .content {
-	padding: 16px;
+    padding: 16px;
+}
+
+.head {
+    margin: 20px;
 }

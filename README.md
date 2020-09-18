@@ -6,8 +6,8 @@ Done:
 + Scoreboard
 + Register
 + Rules
++ Profile
 
 To Do:
-+ Profile
 + Teams
 + Admin 

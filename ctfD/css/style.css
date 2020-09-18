@@ -75,3 +75,9 @@ header .login-btn{
 .content {
 	padding: 16px;
 }
+.modal-content{
+	background: #151525;
+}
+.close{
+	color: #FFF;
+}

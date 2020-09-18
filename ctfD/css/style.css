@@ -84,3 +84,10 @@ header .login-btn {
 .head {
     margin: 20px;
 }
+
+.modal-content{
+	background: #151525;
+}
+.close{
+	color: #FFF;
+}
